@@ -39,6 +39,8 @@ const data = [
   },
 ];
 
+
+
 export default class App extends React.Component {
   state = { position: 0 };
   renderItem = ({ item, index }) => {
